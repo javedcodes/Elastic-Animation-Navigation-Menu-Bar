@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!-- Meta tags for character encoding and viewport settings -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- Title of the webpage -->
+   <title>Elastic Tab Animation | JV Codes</title>
+   <!-- Link to external CSS file for styling -->
+   <link rel="stylesheet" href="styles.css">
+   <!-- Link to Font Awesome icons for the menu items -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+   <!-- Wrapper for navigation bar content -->
+      <div class="wrapper">
+         <!-- Navigation bar with radio buttons for tab functionality -->
+         <nav>
+            <!-- Home tab (default selected) -->
+            <input type="radio" name="tab" id="home" checked>
+            <!-- Inbox tab -->
+            <input type="radio" name="tab" id="inbox">
+            <!-- Contact tab -->
+            <input type="radio" name="tab" id="contact">
+            <!-- Heart tab -->
+            <input type="radio" name="tab" id="heart">
+            <!-- About tab -->
+            <input type="radio" name="tab" id="about">
+            
+            <!-- Labels with icons and links for each tab -->
+            <label for="home" class="home">
+               <a href="#"><i class="fas fa-home"></i>Home</a>
+            </label>
+            
+            <label for="inbox" class="inbox">
+               <a href="#"><i class="far fa-comment"></i>Inbox</a>
+            </label>
+            
+            <label for="contact" class="contact">
+               <a href="#"><i class="far fa-envelope"></i>Contact</a>
+            </label>
+            
+            <label for="heart" class="heart">
+               <a href="#"><i class="far fa-heart"></i>Heart</a>
+            </label>
+            
+            <label for="about" class="about">
+               <a href="#"><i class="far fa-user"></i>About</a>
+            </label>
+            
+            <!-- Tab indicator for the elastic animation -->
+            <div class="tab"></div>
+         </nav>
+      </div>
+</body>
+</html>
